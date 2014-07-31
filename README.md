@@ -35,6 +35,8 @@ The application requires malhar and scala runtime libraries to run.  These can b
 
 ## Links
 
-DataTorrent - https://www.datatorrent.com/
-DataTorrent Docs - https://www.datatorrent.com/docs/
-Malhar - https://github.com/DataTorrent/Malhar
+For more information about DataTorrent visit:
+
+* DataTorrent - https://www.datatorrent.com/
+* DataTorrent Docs - https://www.datatorrent.com/docs/
+* Malhar - https://github.com/DataTorrent/Malhar
