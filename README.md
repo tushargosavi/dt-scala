@@ -18,33 +18,19 @@ SBT is the build tool for Scala, This project is using SBT to
 managing dependency, compilation and creation of package.
 
 ### compile
-```
-sbt compile
-```
+
+    sbt compile
 
 ### Create package
-```
-sbt package
-```
+    
+    sbt package
 
 ## Running on Datatorrent Platform.
 
-The application requires malhar and scala runtime libraries
-to run, I do not know how to make a simple jar with just these
-dependency included.
+The application requires malhar and scala runtime libraries to run.  These can be installed on launch machine, or packaged with AppBundles feature.  Example below uses locally installed scala libraries.
 
-Finally copied these two jars in a lib directory and provide its
-path to Datatorrent application launcher (dtcli)
-
-```
-dtadmin@dtbox1:~$ dtcli 
-DT CLI 0.9.5-RC1 02.05.2014 @ 21:51:54 PDT rev: 7fb9d4b branch: 7fb9d4b34bd5b4af84d7f19cda31f652a844d593
-dt> launch -libjars /home/tushar/devel/scala/dtscalatest/target/lib/* /home/tushar/devel/scala/dtscalatest/target/scala-2.10/dtscalatest_2.10-1.0.jar 
-Waiting for license agent to start...
-License agent started.
-{"appId": "application_1403440284204_0002"}
-dt (application_1403440284204_0002) > 
-```
+    $ dtcli 
+    dt> launch -libjars /usr/share/scala/lib/* dtscalatest_2.10-1.0.jar
 
 [dt]: https://www.datatorrent.com/
 [malhar]: https://github.com/DataTorrent/Malhar
