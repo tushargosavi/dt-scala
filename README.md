@@ -32,5 +32,9 @@ The application requires malhar and scala runtime libraries to run.  These can b
     $ dtcli 
     dt> launch -libjars /usr/share/scala/lib/* dtscalatest_2.10-1.0.jar
 
-[dt]: https://www.datatorrent.com/
-[malhar]: https://github.com/DataTorrent/Malhar
+
+## Links
+
+DataTorrent - https://www.datatorrent.com/
+DataTorrent Docs - https://www.datatorrent.com/docs/
+Malhar - https://github.com/DataTorrent/Malhar
